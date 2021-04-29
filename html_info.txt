@@ -2,7 +2,7 @@ url~https://web.whatsapp.com/~url do site
 pane~//div[@aria-label="Lista de conversas"]~ classe da caixa com contatos
 search_back~//button[1]
 last_msg~//div[@id="main"]//div[@tabindex="-1"]/div[last()]/div/div/div/div/div/span/span~   xpath das ultimas mensagens enviadas
-pane_item~//div[@aria-label="Lista de conversas. Pressione a seta para direita em uma conversa para abrir o menu da conversa."]/div~ xpath da caixinha de contato do negocio ali
+pane_item~//div[@aria-label="Lista de conversas"]/div~ xpath da caixinha de contato do negocio ali
 num~//header//span[@title][@dir]~ O title dessa e o id do contato se n tiver title e outra coisa
 send~/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]~ caixa de msg   SCROOLDOWN e NECESSaRIO
 img_subtitle~/html/body/div/div[1]/div[1]/div[2]/div[2]/span/div[1]/span/div[1]/div/div[2]/div[1]/span/div/div[2]/div/div[3]/div[1]/div[2]~subtitle input when sending image
